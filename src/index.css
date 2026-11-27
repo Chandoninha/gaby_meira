@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.confetti-bg {
+  background-color: #ffffff;
+  background-image:
+    radial-gradient(#F4C2D7 3px, transparent 3px),
+    radial-gradient(#FFD54F 3px, transparent 3px),
+    radial-gradient(#80DEEA 2.5px, transparent 2.5px),
+    radial-gradient(#CE93D8 2.5px, transparent 2.5px);
+  background-size: 90px 90px;
+  background-position: 0 0, 45px 45px, 20px 65px, 70px 15px;
+}
